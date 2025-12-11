@@ -1,0 +1,1 @@
+# playwright-swag-automator
