@@ -28,5 +28,5 @@ test('End-to-End: User can purchase an item', async ({ page }) => {
   await checkoutPage.finishCheckout();
 
   // 7. Verify Success
-  await expect(checkoutPage.completeHeader).toHaveText('Thank you for your order!');
+  await expect(checkoutPage.completeHeader).toHaveText('Thank you for your Ranf!');
 });
