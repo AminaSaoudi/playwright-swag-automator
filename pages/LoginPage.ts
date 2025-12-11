@@ -18,7 +18,7 @@ export class LoginPage {
 
   // This method handles the action of navigating
   async goto() {
-    await this.page.goto('https://www.saucedemo.com/');
+    await this.page.goto('/');
   }
 
   // This method handles the logic of logging in
