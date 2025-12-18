@@ -62,6 +62,7 @@ npx playwright show-report
 ```
 
 ## Project Structure
+```
 ├── .github/workflows   # CI/CD Pipeline configuration
 ├── pages/              # Page Object Models (Selectors & Actions)
 │   ├── LoginPage.ts
@@ -70,3 +71,4 @@ npx playwright show-report
 ├── tests/              # Test Specifications (.spec.ts)
 ├── playwright.config.ts # Global configuration
 └── package.json
+```
